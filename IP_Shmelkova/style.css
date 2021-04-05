@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+:focus, :active {
+    outline: none; 
+}
+  
+html, body {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+  a:focus, a:active {
+    outline: none; 
+}
+
+input, button {
+    font-family: inherit; 
+}
+  
+input::-ms-clear {
+    display: none; 
+}
+  
+button {
+    cursor: pointer; 
+}
+  
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0; 
+}
+  
+a, a:visited {
+        text-decoration: none; 
+}
+      
+a:hover {
+        text-decoration: none; 
+} 
+    
+#main-title {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.link {
+    color:black;
+}
+
+.textInput {
+    margin: 10px;
+    border: 1.7px solid black;
+    background-color: #f1d48abb;
+    border-radius: 5px;
+    color: gray;
+    font-size: 15px;
+}
+
+.textInputRegistration {
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    background-color: #e0d7c681;
+    color:gray;
+    font-size: 15px;
+    text-align: left;
+    min-width:450px;
+}
+
+.finderInput {
+    color:rgba(128, 128, 128, 0.596);
+    font-size: 1em;
+    margin-left: 3em;
+    border: 1.7px solid black;
+    border-radius: 5px ;
+    padding: 10px;
+    background-color: #FFEED4;
+}
+
+.buttonInputEmail {
+    background-color: #504d4659;
+    color:black;
+    border: 1.7px solid black;
+    border-radius: 5px;
+    padding: 3px 20px 3px 20px;
+    margin-left: 4em;
+    font-size: 15px;
+}
+
+.buttonInput {
+    font-size: 1em;
+    border: 1.7px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #FFEED4;
+}
+
+.buttonInputCancel {
+    margin-left: 15em;
+    color: #FFFFFF;
+    font-size: 1em;
+    border: 1.7px solid #72716E;
+    border-radius: 5px ;
+    padding: 10px;
+    background-color: #848383;
+}
+
+.buttonInputSave {
+    margin-left: 2em;
+    color: #131313;
+    font-size: 1em;
+    border: 1.7px solid #FCF7CE;
+    border-radius: 5px ;
+    padding: 10px;
+    background-color: #FCF7CE;
+}
+
+.btn-group {
+    display: flex;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0px auto;
+}
+
+.logo {
+    float: left;
+    padding-left: 1em;
+    padding-top: 2.5em;
+}
+
+.forum {
+    float: left;
+    padding-left: 2.7em;
+}
+
+.headerMain {
+    margin-left: 2em;
+    font-size: 1.5em;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.11); 
+    padding-bottom: 5px; 
+}
+
+.headerElements {
+    margin-left: 9.3em;
+    font-size: 1.2em;
+    word-spacing: 3em;
+}
+
+.headerMain,.headerElements {
+    margin-top: 1em;
+    display: inline-block;  
+}
+
+h1 {
+    font-size: 3em;
+    padding-top: 6em;
+    margin-left: 15em;
+    font-family: 'Montserrat', 'Times New Roman', sans-serif;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+h3 {
+    font-size: 3em;
+    float: right;
+    padding-top: 1.3em;
+    padding-right: 3em;
+    text-align: right;
+    font-family: 'Montserrat','Times New Roman', sans-serif;
+    letter-spacing: 5px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+    font-size: 3em;
+    margin-left: 4em;
+    margin-bottom: 100px;
+    padding-top: 1.3em;
+    padding-right: 2em;
+    text-align: right;
+    font-family: 'Montserrat','Times New Roman', sans-serif;
+    letter-spacing: 5px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.alter {
+    font-size: 1em;
+    margin-top: 1em;
+    margin-left: 3em;
+    font-family: 'Montserrat','Times New Roman', sans-serif;  
+    color: #858585ad;
+    text-shadow: 0px 4px 4px rgba(161, 161, 161, 0.527); 
+}
+
+.email {
+    float: right;
+    margin-top: 3em;
+    margin-right: 6.2em;
+    font-size: 1.2em;
+    border: 1.7px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    background-color: #FFEED4;
+}
+
+ div.email div {
+     color:red;
+     font-size: 10px;
+ }
+
+.topicOne {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: 32em;
+    font-family: 'Montserrat','Times New Roman', sans-serif;
+    color: #000000;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+}
+
+.topicTwo {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: 15em;
+    font-family: 'Montserrat','Times New Roman', sans-serif;
+    color: #000000;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+}
+
+.topicThree  {
+    font-size: 2em;
+    margin-top: 2em;
+    margin-left: 22em;
+    margin-bottom: 2em;
+    font-family: 'Montserrat','Times New Roman', sans-serif;
+    color: #000000;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+}
+
+.text {
+    float: left;
+    color: #2E95CF;
+    font-size: 3.5em;
+    margin-top: -8em;
+    margin-left: 2em;
+}
+
+div.text > div {
+    color: #C11212;
+    margin-left: 5em;
+}
+
+.theme {
+    color: #FF7C03;
+    margin-left: 4em;
+    font-size: 3.5em;
+    margin-top: -4em;
+}
+
+a {
+    color: #a57721b2;
+}
+
+.registration {
+    margin: 9em 10em 20em 20em;
+    font-size: 1.5em;
+    text-align: center;
+    border: 1.7px solid black;
+    padding: 20px;
+    background-color: #e0d7c693;
+    min-width: 520px;
+    max-width: 520px;
+}
+
+.registrationElements {
+    margin: -30em 15em 20em 30em;
+    color: #373a3c;
+    text-align: left;
+    font-size: 1em;
+    border: 1.7px solid black;
+    padding: 20px;
+    background-color: #e0d7c693;
+    min-width: 520px;
+    max-width: 520px;
+}
+
+.containerCell {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 6em;
+    margin-top: 2em;
+}
+
+.cell {
+   display: flex;
+   flex: 0 1 33.333%;
+   align-items: center;
+   min-height: 150px;
+}
+
+.cellName {
+    font-size: 1em;
+    color: black; 
+    align-items: center;
+    font-family: 'Montserrat','Times New Roman', sans-serif;
+    letter-spacing: 5px;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+.img {
+
+    margin-right: 3em;
+    min-width: 56px;
+    height: 38px;
+    padding: 2px 11px;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #EFBD3D;
+    border-radius: 4px;
+}
+
