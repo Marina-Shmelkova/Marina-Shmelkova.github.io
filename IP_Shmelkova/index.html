@@ -27,102 +27,89 @@
                 <div class="alter">
                      Приветствую тебя на онлайн-форуме “S&M”, дорогой друг. Скорее присоединяйся к самым сочным темам этого года...
                 </div>  
-                <div class="headerMain"> 
-                    <a href="" class="link">
-                        <strong>
-                            <a href="index.html" class="link">Главная</a>
-                        </strong>
-                    </a>
-                </div>
-                <div class="headerElements"> 
-                        <strong>
-                            <a href="catalog.html" class="link">
-                                Рубрики
-                            </a>
-                            <a href="#" class="link">
-                                Участники
-                            </a>  
-                            <a href="#" class="link">
-                                Помощь
-                            </a>                   
-                            <a href="registration.html" class="link">
-                                Регистрация
-                            </a>
-                        </strong>
-                </div>
-                <input class="finderInput" type="text"name="finder" placeholder="Найду для тебя все, зай...">
-                <button class="buttonInput" type="submit">
-                    <b>
-                        Поиск
-                    </b>
-                </button>
+                <form id="formOne">
+                    <div class="headerMain"> 
+                        <a href="" class="link">
+                            <strong><a href="index.html" class="link">Главная</a></strong> 
+                        </a>
+                    </div>
+                    <div class="headerElements">
+                            <strong>
+                                <a href="catalog.html" class="link">Рубрики</a>
+                                <a href="#" class="link">Участники</a>  
+                                <a href="#" class="link">Помощь</a>                   
+                                <a href="registration.html" class="link">Регистрация</a>
+                            </strong>
+                    </div>
+                        <input class="finderInput" type="text" name="finder" placeholder="Найду для тебя все, зай...">
+                        <button class="buttonInput" type="submit"><b>Поиск</b></button>
+                    </form>
             </div>
+            <!-- Yandex.Metrika counter -->
+            <script type="text/javascript" >
+                (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+            
+                ym(76470415, "init", {
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            </script>
+            <noscript><div><img src="https://mc.yandex.ru/watch/76470415" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <!-- /Yandex.Metrika counter -->
         </header>
         <div class="container">
+            <form id="formTwo">
             <div class="email">
-                <strong>
-                    Email adress
-                </strong> 
+                <strong>Email adress</strong> 
             <div>
                 <input class="textInput" type="text" name="email" placeholder="Enter email">
                     <div>
                         We'll never share your email with anyone else.
                     </div>
             </div>
-            <strong>
-                Password
-            </strong>
+            <strong>Password</strong>
             <div>
                 <input class="textInput" type="password" name="email" placeholder="Password">
             </div>
                 <p>
                     <button class="buttonInputEmail" type="submit">
-                        <b>
-                            Войти
-                        </b>
+                        <b>Войти</b>
                     </button>
                 </p>
             </div>
+        </form>
             <div class="forum">
                 <img src="img/forum.png" width="500" height="250"alt="загрузка...">
             </div>
         </div>
         <div class="container">
             <h1>
-                <strong>
-                    Темы дня
-                </strong>
+                <strong>Темы дня</strong>
             </h1>
             <div class="topicOne">
-                <strong>
-                    C# или Java?
-                </strong>
+                <strong>C# или Java?</strong>
             </div>
             <div class="topicTwo">
-                <strong>
-                    frontend и backend можно ли все сразу?
-                </strong>
+                <strong>frontend и backend можно ли все сразу?</strong>
             </div>
             <div class="topicThree">
-                <strong>
-                    Какие обновления нас ждут в 2021?
-                </strong> 
+                <strong>Какие обновления нас ждут в 2021?</strong> 
             </div>
             <div class="text">
-                <b>
-                    найди
-                </b>
+                <b>найди</b>
                 <div>
-                    <b>
-                    свою
-                    </b>
+                    <b>свою</b>
                 </div>             
             </div>
             <div class="theme">
-                <b>
-                    тему
-                </b>
+                <b>тему</b>
             </div>
         </div>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="site.js"></script>
     </body>
 </html>

@@ -24,42 +24,43 @@
                 <div class="alter">
                     Приветствую тебя на онлайн-форуме “S&M”, дорогой друг. Скорее присоединяйся к самым сочным темам этого года...
                 </div>  
+                <form id="formOne"> 
                 <div class="headerMain"> 
                     <a href="" class="link">
-                        <strong>
-                            <a href="index.html" class="link">Главная</a>
-                        </strong> 
+                        <strong><a href="index.html" class="link">Главная</a></strong> 
                     </a>
                 </div>
                 <div class="headerElements">
                         <strong>
-                            <a href="catalog.html" class="link">
-                                Рубрики
-                            </a>
-                            <a href="#" class="link">
-                                Участники
-                            </a>  
-                            <a href="#" class="link">
-                                Помощь
-                            </a>                   
-                            <a href="registration.html" class="link">
-                                Регистрация
-                            </a>
+                            <a href="catalog.html" class="link">Рубрики</a>
+                            <a href="#" class="link">Участники</a>  
+                            <a href="#" class="link">Помощь</a>                   
+                            <a href="registration.html" class="link">Регистрация</a>
                         </strong>
                 </div>
-                <input class="finderInput" type="text"name="finder" placeholder="Найду для тебя все, зай...">
-                <button class="buttonInput" type="submit">
-                    <b>
-                        Поиск
-                    </b>
-                </button>
+                    <input class="finderInput" type="text" name="finder" placeholder="Найду для тебя все, зай...">
+                    <button class="buttonInput" type="submit"><b>Поиск</b></button>
+                </form>
             </div>
+            <!-- Yandex.Metrika counter -->
+            <script type="text/javascript" >
+                (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+                m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+                (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+            
+                ym(76470415, "init", {
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true
+                });
+            </script>
+            <noscript><div><img src="https://mc.yandex.ru/watch/76470415" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+            <!-- /Yandex.Metrika counter -->
         </header>
         <div class="container">
             <h3>
-                <strong>
-                    Регистрация
-                </strong>
+                <strong>Регистрация</strong>
             </h3>
         </div>
         <div class="container">
@@ -67,35 +68,23 @@
                 Зарегестрируйся на форум уже сейчас
             </div>
             <div class="registrationElements">
+                <form id="formTwo">
                 <strong>
                     Тема форума:
-                    <p>
-                        <input class="textInputRegistration" type="text" name="topic" placeholder="Введите тему форума...">
-                    </p>
-                    <p>
-                        ФИО:
-                    </p>
-                    <p>
-                        <input class="textInputRegistration" type="text" name="name" placeholder="Введите ваше ФИО...">
-                    </p>
-                    <p>
-                        Email:
-                    </p>
+                    <p><input class="textInputRegistration" type="text" name="topic" placeholder="Введите тему форума..."></p>
+                    <p>ФИО:</p>
+                    <p><input class="textInputRegistration" type="text" name="name" placeholder="Введите ваше ФИО..."></p>
+                    <p>Email:</p>
                 </strong>
-                <p>
-                    <input class="textInputRegistration" type="text" name="email" placeholder="Введите ваш email...">
-                </p>
+                <p><input class="textInputRegistration" type="text" name="email" placeholder="Введите ваш email..."></p>
                 <div class="btn-group">
-                    <button class="buttonInputCancel" type="submit">
-                        Отменить
-                    </button>
-                    <button class="buttonInputSave" type="submit">
-                        <b>
-                            Сохранить
-                        </b>
-                    </button>
+                    <button class="buttonInputCancel" type="reset">Очистить</button>
+                    <button class="buttonInputSave" type="submit"><b>Сохранить</b></button>
                 </div>
+            </form>
             </div>   
-        </div>        
+        </div>    
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+        <script src="site.js"></script>    
     </body>
 </html>
